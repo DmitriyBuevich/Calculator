@@ -16,7 +16,7 @@ public class Calc {
     }
 
     public static int getInt() {
-        //System.out.println("Введи число от 1 до 10");
+        System.out.println("Введи число от 1 до 10");
         int num = 0;
 
         if (scanner.hasNextInt()) {  //hasNextInt проверяет входные данные на Int(целое число)
